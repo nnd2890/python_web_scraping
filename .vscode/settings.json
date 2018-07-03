@@ -1,0 +1,13 @@
+{
+    "python.pythonPath": "/home/nnd2890//python/web_scrapping/python_web_scraping/venv/bin/python",
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test.py"
+    ],
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.unittestEnabled": true
+}
