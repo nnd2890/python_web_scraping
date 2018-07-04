@@ -1,0 +1,12 @@
+#!/home/nnd2890/python/web_scrapping/python_web_scraping/venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'twitter==1.12.1','console_scripts','twitterbot'
+__requires__ = 'twitter==1.12.1'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('twitter==1.12.1', 'console_scripts', 'twitterbot')()
+    )
